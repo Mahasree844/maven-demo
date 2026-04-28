@@ -11,7 +11,7 @@ public class NumberCheckTest {
         assertEquals("Even", n.checkEvenOdd(4));
     }
 
-    @Tests
+    @Test
     void testOdd() {
         NumberCheck n = new NumberCheck();
         assertEquals("Odd", n.checkEvenOdd(5));
